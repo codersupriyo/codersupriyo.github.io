@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Formula | Coder-Supriyo</title>
+
+    <!--Embed-->
+    <meta name="description" content="My personal website ." />
+    <meta name="title" content="Coder Supriyo" />
+    <meta content="./images/Supriyo.ong" property="og:image" />
+    <meta name="theme-color" content="#3066be" />
+    <meta name="robots" content="index, follow" />
+    <link type="application/json+oembed" href="./embed/provider.json" />
+    <!--------------------->
+    
+    <!--Icon-->
+    <link
+        rel="icon"
+        href="../images/Supriyo.png"
+        type="image/gif"
+        sizes="16x16"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./distance-formula.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation bar -->
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#">Suggestion</a></li>
+            </ul>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <div class="formula-img">
+                <h1>Distance Formula</h1>
+                <img src="" alt="Distance Formula">
+            </div>
+            <br>
+            <div class="inputs">
+                <form id="form">
+                <!-- Point A -->
+                <label for="">Point A (x<sub>1</sub>, y<sub>1</sub>)</label>
+                <input type="number" name="x1" id="x1" placeholder="x1" required>
+                <input type="number" name="y1" id="y1" placeholder="y1" required>
+                <br>
+                <!-- Point B -->
+                <label for="">Point B (x<sub>2</sub>, y<sub>2</sub>)</label>
+                <input type="number" name="x2" id="x2" placeholder="x2" required>
+                <input type="number" name="y2" id="y2" placeholder="y2" required>
+            </form>
+            </div>
+            <div class="solution">
+                <input type="submit" value="Calculate" onclick="calc()">
+                <input type="number" id="result" placeholder="Result" disabled>
+                <input type="button" value="Clear" onclick="clear()">
+            </div>
+        </div>
+    </div>
+<script src="./distanceFormula.js"></script>
+</body>
+</html>

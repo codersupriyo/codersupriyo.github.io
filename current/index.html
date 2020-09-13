@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Current Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--OpenGraph Embed-->
+    <meta name="description" content="Current Calculator" />
+    <meta name="title" content="Science" />
+    <meta content="https://webstockreview.net/images/clipart-brain-electricity-14.png" property="og:image" />
+    <meta name="theme-color" content="#EFF611" />
+    <link type="application/json+oembed" href="./embed/provider.json">
+    <!--------------------->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Current Calculator</h1>
+        <h3> Select the option according to the values given in your question!</h3>
+        <div class="selection">
+            <b>Select →</b>
+            <select>
+                <option>Select</option>
+                <option value="A">Charge and Time</option>
+                <option value="B">Potential Difference</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div class="A GFG">
+                <p>
+                    <label>Enter the charge:</label>
+                    <input type="text" id="Q">
+                </p>
+                <p>
+                    <label>Enter the time (in seconds ):</label>
+                    <input type="text" id="T">    
+                </p>
+                <br>
+                <p class="aa">
+                    <span id="res"><b>Result:</b></span><br>
+               
+                </p>
+                <p>
+                    <input type="button" value="Show!" onclick="firstMethod()">
+                </p>
+            </div>
+            <div class="B GFG">
+                <p>
+                    <label>Enter the Potential Difference:</label>
+                    <input type="text" id="V">
+                </p>
+                <p>
+                    <label>Enter the resistance:</label>
+                    <input type="text" id="R">    
+                </p>
+                <br>
+                <p class="aa">
+                    <span id="res"><b>Result:</b></span><br>
+                </p>
+                <p>
+                 <input type="button" value="Show!" onclick="secondMethod()">
+                </p>
+            </div>
+            
+        
+    </div>
+        
+</body>
+</html>

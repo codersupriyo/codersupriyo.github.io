@@ -1,0 +1,50 @@
+/* Distance formula CSS */
+
+/* Importing fonts from https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+
+.nav {
+    color: white;
+    background: #3066be;
+    opacity: 0.4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+}
+
+/* Main Contents */
+
+/* Content heading */
+.content h1 {
+    font-family: 'Cookie', cursive;
+}
+
+/* Content body */
+.content {
+    display: block;
+    text-align: center;
+}
