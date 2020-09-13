@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Coder Supriyo</title>
+
+    <!--Embed-->
+    <meta name="description" content="My personal website ." />
+    <meta name="title" content="Coder Supriyo" />
+    <meta content="./images/Supriyo.ong" property="og:image" />
+    <meta name="theme-color" content="#3066be" />
+    <meta name="robots" content="index, follow" />
+    <link type="application/json+oembed" href="./embed/provider.json" />
+    <!--------------------->
+
+    <!--Icon-->
+    <link
+      rel="icon"
+      href="./images/Supriyo.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
+    <!---->
+  </head>
+
+  <body>
+    <div class="container">
+      <!--navbar-->
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#change-log">Change-log</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!--Header-->
+      <div class="header">
+        <img
+          src="./images/Supriyo.png"
+          alt="Supriyo's profile picture"
+          width="200"
+          style="border: 2px solid white"
+        />
+        <h1>Coder Supriyo</h1>
+        <p>A young front-end Web developer and Programmer.</p>
+        <br />
+        <button id="modeBTN" onclick="mode()">Light mode ☀️</button>
+      </div>
+      <!---->
+
+      <!--Table-->
+      <section class="main-content" id="main-content">
+        <h1 id="heading">My Projects</h1>
+        <!-- Clash Search -->
+        <div class="features">
+          <a href="https://clashsearch.vercel.app/" target="_blank">
+            <img
+              src="./images/ClashSearch.png"
+              alt="clash search logo"
+              width="85"
+            >
+            <h2>Clash Search</h2>
+            <h3>A <b>Clash of Clans</b> Discord bot</h3>
+          </a>
+        </div>
+        <!-- Science -->
+        <div class="features">
+          <a href="./science/">
+            <img src="./images/atom.png" alt="" width="100" />
+            <h2>Science</h2>
+            <h3>Science based web applications</h3>
+          </a>
+        </div>
+        <!-- Web Development -->
+        <div class="features">
+          <a href="./web-development/"
+            ><img src="./images/webdev.png" alt="Web Development" width="80" />
+            <h2>Web Development</h2>
+            <h3>List Of Websties Made By Me <br /></h3>
+          </a>
+        </div>
+        <!-- School -->
+        <div class="features">
+          <a href="./school/">
+            <img src="./images/github.png" alt="" width="100" />
+            <h2>Open Source</h2>
+            <h3>My Open-Source Projects On GitHub</h3>
+          </a>
+        </div>
+      </section>
+      <!---->
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <p>Made by Supriyo with 💙</p>
+    </div>
+    <!---->
+    <!--JavaScirpt-->
+    <script src="./script.js"></script>
+    <!---->
+  </body>
+</html>
